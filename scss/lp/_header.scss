@@ -1,0 +1,29 @@
+header {
+  .inner {
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  ul {
+    display: flex;
+
+    &.h-list {
+      height: 30px;
+      line-height: 30px;
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin: 0 30px 0 0;
+      letter-spacing: 0.07em;
+      li {
+        margin: 0 30px 0 0;
+      }
+    }
+
+    &.h-sns {
+
+    }
+
+  }
+
+}
